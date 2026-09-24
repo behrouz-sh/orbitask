@@ -1,0 +1,11 @@
+@theme inline {
+  /* Custom shadow tokens - non-destructive (additive) */
+
+  /* =========================================================
+     DROP SHADOW
+     ========================================================= */
+
+  --shadow-low: 2px 2px 7px rgba(65, 74, 83, 0.08);
+  --shadow-medium: 2px 2px 10px rgba(65, 74, 83, 0.08);
+  --shadow-high: 2px 6px 14px rgba(65, 74, 83, 0.2);
+}

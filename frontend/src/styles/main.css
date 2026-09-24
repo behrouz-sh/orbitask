@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@import './colors.css';
+@import './typography.css';
+@import './shadows.css';
+
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@keyframes loader-dot {
+  0%,
+  100% {
+    transform: scale(1);
+    background-color: currentColor;
+  }
+
+  50% {
+    transform: scale(0.7);
+    background-color: transparent;
+    border: 2px solid currentColor;
+  }
+}
+
+.animate-loader-dot {
+  animation: loader-dot 900ms ease-in-out infinite;
+}
